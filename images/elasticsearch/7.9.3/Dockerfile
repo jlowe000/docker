@@ -9,9 +9,7 @@ ENV ES_JAVA_OPTS '-Xms512m -Xmx512m'
 ENV cluster.name 'pelias-dev'
 ENV discovery.type 'single-node'
 ENV bootstrap.memory_lock 'true'
-ENV JAVA_HOME /usr/share/elasticsearch/jdk
 RUN echo 'vm.max_map_count=262144' >> /etc/sysctl.conf
-RUN echo 'export PATH=$JAVA_HOME/bin:$PATH' >> /usr/share/elasticsearch/.bashrc
 
 # configure plugins
 RUN /usr/share/elasticsearch/bin/elasticsearch-plugin install analysis-icu
@@ -38,8 +36,8 @@ RUN chmod go+x /usr/share/elasticsearch \
 
 # add execute permissions to bins
 RUN chmod go+x /usr/share/elasticsearch/bin/*
-RUN chmod go+x /usr/share/elasticsearch/jdk/bin/*
-RUN chmod go+x -R /usr/share/elasticsearch/jdk
+# add execute permissions to jdk
+RUN chmod go+x -R /usr/share/elasticsearch/jdk/*
 
 # run as elasticsearch user
 USER elasticsearch
