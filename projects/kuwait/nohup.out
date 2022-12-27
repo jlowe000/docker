@@ -1,0 +1,639 @@
+Creating pelias_polylines_run ... 
+Creating pelias_placeholder_run ... 
+Creating pelias_polylines_run ... done
+Creating pelias_placeholder_run ... done
+Creating extract at /data/placeholder/wof.extract
+converting /data/openstreetmap/gcc-states-latest.osm.pbf to /data/polylines/extract.0sv
+Creating pelias_placeholder_run ... 
+Creating pelias_placeholder_run ... done
+import...
+populate fts...
+optimize...
+close...
+Done!
+wrote polylines extract
+-rw-r--r--. 1 1001 1001 8.3M Dec 26 03:05 /data/polylines/extract.0sv
+Creating pelias_interpolation_run ... 
+Creating pelias_interpolation_run ... done
+- importing polylines
+- archiving street database
+- conflating openaddresses
+Mon Dec 26 03:06:06 UTC 2022 /data/openaddresses/sa/countrywide.csv
+- conflating openstreetmap
+- conflating tiger
+Mon Dec 26 03:19:34 UTC 2022 /data/tiger/downloads/tl_2021_53011_addrfeat.zip
+- interpolating vertices
+real 7.57
+user 7.56
+sys 0.52
+- archiving address database
+- generating meta file
+
+Build completed!
+
+Creating pelias_whosonfirst_run ... 
+Creating pelias_whosonfirst_run ... done
+[32minfo[39m: [whosonfirst] import finished
+Creating pelias_openaddresses_run ... 
+Creating pelias_openaddresses_run ... done
+[32minfo[39m: [wof-pip-service:master] starting with layers neighbourhood,borough,locality,localadmin,county,macrocounty,macroregion,region,dependency,country,empire,continent
+[32minfo[39m: [openaddresses] Importing 1 files.
+[32minfo[39m: [openaddresses] Creating read stream for: /data/openaddresses/sa/countrywide.csv
+[32minfo[39m: [wof-pip-service:master] neighbourhood worker loaded 0 features in 0.049 seconds
+[32minfo[39m: [wof-pip-service:master] macrocounty worker loaded 0 features in 0.013 seconds
+[32minfo[39m: [wof-pip-service:master] borough worker loaded 0 features in 0.04 seconds
+[32minfo[39m: [wof-pip-service:master] locality worker loaded 0 features in 0.027 seconds
+[32minfo[39m: [wof-pip-service:master] localadmin worker loaded 0 features in 0.028 seconds
+[32minfo[39m: [wof-pip-service:master] country worker loaded 0 features in 0.013 seconds
+[32minfo[39m: [wof-pip-service:master] region worker loaded 0 features in 0.012 seconds
+[32minfo[39m: [wof-pip-service:master] empire worker loaded 0 features in 0.012 seconds
+[32minfo[39m: [wof-pip-service:master] county worker loaded 0 features in 0.014 seconds
+[32minfo[39m: [wof-pip-service:master] macroregion worker loaded 0 features in 0.011 seconds
+[32minfo[39m: [wof-pip-service:master] dependency worker loaded 0 features in 0.012 seconds
+[32minfo[39m: [wof-pip-service:master] continent worker loaded 0 features in 0.012 seconds
+[32minfo[39m: [wof-pip-service:master] PIP Service Loading Completed!!!
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=2, current_length=429
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=2, current_length=429
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=2, current_length=114, indexed=35000, batch_ok=70, batch_retries=0, failed_records=0, address=35000, persec=3500
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=471, indexed=79500, batch_ok=159, batch_retries=0, failed_records=0, address=79500, persec=4450
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=2, current_length=46, indexed=127000, batch_ok=254, batch_retries=0, failed_records=0, address=127000, persec=4750
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=146, indexed=174500, batch_ok=349, batch_retries=0, failed_records=0, address=174500, persec=4750
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=126, indexed=223000, batch_ok=446, batch_retries=0, failed_records=0, address=223000, persec=4850
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=12, indexed=267000, batch_ok=534, batch_retries=0, failed_records=0, address=267000, persec=4400
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=480, indexed=315000, batch_ok=630, batch_retries=0, failed_records=0, address=315000, persec=4800
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=181, indexed=362500, batch_ok=725, batch_retries=0, failed_records=0, address=362500, persec=4750
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=438, indexed=411500, batch_ok=823, batch_retries=0, failed_records=0, address=411500, persec=4900
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=181, indexed=458000, batch_ok=916, batch_retries=0, failed_records=0, address=458000, persec=4650
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=213, indexed=506000, batch_ok=1012, batch_retries=0, failed_records=0, address=506000, persec=4800
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=25, indexed=553500, batch_ok=1107, batch_retries=0, failed_records=0, address=553500, persec=4750
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=204, indexed=602000, batch_ok=1204, batch_retries=0, failed_records=0, address=602000, persec=4850
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=432, indexed=649000, batch_ok=1298, batch_retries=0, failed_records=0, address=649000, persec=4700
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=335, indexed=692500, batch_ok=1385, batch_retries=0, failed_records=0, address=692500, persec=4350
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=408, indexed=738000, batch_ok=1476, batch_retries=0, failed_records=0, address=738000, persec=4550
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=466, indexed=785500, batch_ok=1571, batch_retries=0, failed_records=0, address=785500, persec=4750
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=452, indexed=833000, batch_ok=1666, batch_retries=0, failed_records=0, address=833000, persec=4750
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=225, indexed=880500, batch_ok=1761, batch_retries=0, failed_records=0, address=880500, persec=4750
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=89, indexed=927500, batch_ok=1855, batch_retries=0, failed_records=0, address=927500, persec=4700
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=432, indexed=972500, batch_ok=1945, batch_retries=0, failed_records=0, address=972500, persec=4500
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=2, current_length=382, indexed=1019000, batch_ok=2038, batch_retries=0, failed_records=0, address=1019000, persec=4650
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=317, indexed=1067500, batch_ok=2135, batch_retries=0, failed_records=0, address=1067500, persec=4850
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=299, indexed=1116000, batch_ok=2232, batch_retries=0, failed_records=0, address=1116000, persec=4850
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=462, indexed=1160500, batch_ok=2321, batch_retries=0, failed_records=0, address=1160500, persec=4450
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=181, indexed=1208000, batch_ok=2416, batch_retries=0, failed_records=0, address=1208000, persec=4750
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=209, indexed=1255000, batch_ok=2510, batch_retries=0, failed_records=0, address=1255000, persec=4700
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=430, indexed=1302500, batch_ok=2605, batch_retries=0, failed_records=0, address=1302500, persec=4750
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=375, indexed=1345500, batch_ok=2691, batch_retries=0, failed_records=0, address=1345500, persec=4300
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=131, indexed=1391500, batch_ok=2783, batch_retries=0, failed_records=0, address=1391500, persec=4600
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=467, indexed=1438500, batch_ok=2877, batch_retries=0, failed_records=0, address=1438500, persec=4700
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=280, indexed=1486500, batch_ok=2973, batch_retries=0, failed_records=0, address=1486500, persec=4800
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=3, indexed=1534000, batch_ok=3068, batch_retries=0, failed_records=0, address=1534000, persec=4750
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=192, indexed=1554000, batch_ok=3108, batch_retries=0, failed_records=0, address=1554000, persec=2000
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=192, indexed=1554000, batch_ok=3108, batch_retries=0, failed_records=0, address=1554000, persec=0
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=192, indexed=1554000, batch_ok=3108, batch_retries=0, failed_records=0, address=1554000, persec=0
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=192, indexed=1554000, batch_ok=3108, batch_retries=0, failed_records=0, address=1554000, persec=0
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=192, indexed=1554000, batch_ok=3108, batch_retries=0, failed_records=0, address=1554000, persec=0
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=192, indexed=1554000, batch_ok=3108, batch_retries=0, failed_records=0, address=1554000, persec=0
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=192, indexed=1554000, batch_ok=3108, batch_retries=0, failed_records=0, address=1554000, persec=0
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=192, indexed=1554000, batch_ok=3108, batch_retries=0, failed_records=0, address=1554000, persec=0
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=192, indexed=1554000, batch_ok=3108, batch_retries=0, failed_records=0, address=1554000, persec=0
+[32minfo[39m: [wof-admin-lookup] Shutting down admin lookup service
+[32minfo[39m: [admin-lookup:worker] borough worker process exiting, stats: {"calls":1554192,"hits":0,"misses":1554192}
+[32minfo[39m: [admin-lookup:worker] neighbourhood worker process exiting, stats: {"calls":1554192,"hits":0,"misses":1554192}
+[32minfo[39m: [admin-lookup:worker] macroregion worker process exiting, stats: {"calls":1554192,"hits":0,"misses":1554192}
+[32minfo[39m: [admin-lookup:worker] county worker process exiting, stats: {"calls":1554192,"hits":0,"misses":1554192}
+[32minfo[39m: [admin-lookup:worker] macrocounty worker process exiting, stats: {"calls":1554192,"hits":0,"misses":1554192}
+[32minfo[39m: [admin-lookup:worker] region worker process exiting, stats: {"calls":1554192,"hits":0,"misses":1554192}
+[32minfo[39m: [admin-lookup:worker] localadmin worker process exiting, stats: {"calls":1554192,"hits":0,"misses":1554192}
+[32minfo[39m: [admin-lookup:worker] locality worker process exiting, stats: {"calls":1554192,"hits":0,"misses":1554192}
+[32minfo[39m: [admin-lookup:worker] country worker process exiting, stats: {"calls":1554192,"hits":0,"misses":1554192}
+[32minfo[39m: [admin-lookup:worker] dependency worker process exiting, stats: {"calls":1554192,"hits":0,"misses":1554192}
+[32minfo[39m: [admin-lookup:worker] continent worker process exiting, stats: {"calls":1554192,"hits":0,"misses":1554192}
+[32minfo[39m: [admin-lookup:worker] empire worker process exiting, stats: {"calls":1554192,"hits":0,"misses":1554192}
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=0, indexed=1554192, batch_ok=3109, batch_retries=0, failed_records=0, address=1554192, persec=19.2
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=0, indexed=1554192, batch_ok=3109, batch_retries=0, failed_records=0, address=1554192, persec=19.2
+[32minfo[39m: [openaddresses] Total time taken: 433.881s
+Creating pelias_openstreetmap_run ... 
+Creating pelias_openstreetmap_run ... done
+[32minfo[39m: [openstreetmap] Creating read stream for: /data/openstreetmap/gcc-states-latest.osm.pbf
+[32minfo[39m: [wof-pip-service:master] starting with layers neighbourhood,borough,locality,localadmin,county,macrocounty,macroregion,region,dependency,country,empire,continent,marinearea,ocean
+[32minfo[39m: [wof-pip-service:master] neighbourhood worker loaded 0 features in 0.081 seconds
+[32minfo[39m: [wof-pip-service:master] locality worker loaded 0 features in 0.042 seconds
+[32minfo[39m: [wof-pip-service:master] borough worker loaded 0 features in 0.07 seconds
+[32minfo[39m: [wof-pip-service:master] county worker loaded 0 features in 0.049 seconds
+[32minfo[39m: [wof-pip-service:master] dependency worker loaded 0 features in 0.037 seconds
+[32minfo[39m: [wof-pip-service:master] country worker loaded 0 features in 0.032 seconds
+[32minfo[39m: [wof-pip-service:master] continent worker loaded 0 features in 0.032 seconds
+[32minfo[39m: [wof-pip-service:master] macroregion worker loaded 0 features in 0.022 seconds
+[32minfo[39m: [wof-pip-service:master] macrocounty worker loaded 0 features in 0.014 seconds
+[32minfo[39m: [wof-pip-service:master] localadmin worker loaded 0 features in 0.021 seconds
+[32minfo[39m: [wof-pip-service:master] ocean worker loaded 0 features in 0.013 seconds
+[32minfo[39m: [wof-pip-service:master] empire worker loaded 0 features in 0.014 seconds
+[32minfo[39m: [wof-pip-service:master] region worker loaded 0 features in 0.032 seconds
+[32minfo[39m: [wof-pip-service:master] marinearea worker loaded 0 features in 0.012 seconds
+[32minfo[39m: [wof-pip-service:master] PIP Service Loading Completed!!!
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=1, current_length=86
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=1, current_length=86
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=1, current_length=462, indexed=28000, batch_ok=56, batch_retries=0, failed_records=0, venue=25235, address=2765, persec=2800
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=1, current_length=41, indexed=67000, batch_ok=134, batch_retries=0, failed_records=0, venue=60680, address=6320, persec=3900
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=0, current_length=405, indexed=101500, batch_ok=203, batch_retries=0, failed_records=0, venue=78626, address=22874, persec=3450
+[31merror[39m: [openstreetmap] tag_mapper error
+[31merror[39m: [openstreetmap] PeliasModelError: invalid regex test, ‎الحديث ‎‏H5V2+68، السلامة، As-Samer 23437 ‎‏‪054 440 0061‬‏ ‎‏https://maps.app.goo.gl/XixmxUKxhZZXnoXT6 should not match /https?:\/\//
+    at Object.nomatch (/code/pelias/openstreetmap/node_modules/pelias-model/util/valid.js:117:13)
+    at Document.setAddress (/code/pelias/openstreetmap/node_modules/pelias-model/Document.js:411:18)
+    at /code/pelias/openstreetmap/stream/tag_mapper.js:65:17
+    at /code/pelias/openstreetmap/node_modules/lodash/lodash.js:4967:15
+    at baseForOwn (/code/pelias/openstreetmap/node_modules/lodash/lodash.js:3032:24)
+    at /code/pelias/openstreetmap/node_modules/lodash/lodash.js:4936:18
+    at Function.forEach (/code/pelias/openstreetmap/node_modules/lodash/lodash.js:9410:14)
+    at DestroyableTransform._transform (/code/pelias/openstreetmap/stream/tag_mapper.js:34:9)
+    at DestroyableTransform.Transform._read (/code/pelias/openstreetmap/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DestroyableTransform.Readable.read (/code/pelias/openstreetmap/node_modules/readable-stream/lib/_stream_readable.js:456:10)
+[31merror[39m: [openstreetmap] {
+  "name": {},
+  "parent": {},
+  "address_parts": {},
+  "center_point": {
+    "lon": 39.213822,
+    "lat": 21.681448
+  },
+  "category": [],
+  "addendum": {},
+  "source": "openstreetmap",
+  "layer": "venue",
+  "source_id": "node/8420408519"
+}
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=1, current_length=113, indexed=129000, batch_ok=258, batch_retries=0, failed_records=0, venue=92243, address=36757, persec=2750
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=0, current_length=376, indexed=157500, batch_ok=315, batch_retries=0, failed_records=0, venue=103325, address=54175, persec=2850
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=1, current_length=148, indexed=191000, batch_ok=382, batch_retries=0, failed_records=0, venue=110491, address=80509, persec=3350
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=1, current_length=20, indexed=223500, batch_ok=447, batch_retries=0, failed_records=0, venue=111029, address=112471, persec=3250
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=0, current_length=467, indexed=257500, batch_ok=515, batch_retries=0, failed_records=0, venue=111131, address=146369, persec=3400
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=1, current_length=73, indexed=291000, batch_ok=582, batch_retries=0, failed_records=0, venue=111170, address=179830, persec=3350
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=0, current_length=352, indexed=324000, batch_ok=648, batch_retries=0, failed_records=0, venue=119030, address=204970, persec=3300
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=0, current_length=466, indexed=353000, batch_ok=706, batch_retries=0, failed_records=0, venue=140659, address=212341, persec=2900
+[32minfo[39m: [wof-admin-lookup] Shutting down admin lookup service
+[32minfo[39m: [admin-lookup:worker] empire worker process exiting, stats: {"calls":361766,"hits":0,"misses":361766}
+[32minfo[39m: [admin-lookup:worker] county worker process exiting, stats: {"calls":361766,"hits":0,"misses":361766}
+[32minfo[39m: [admin-lookup:worker] macrocounty worker process exiting, stats: {"calls":361766,"hits":0,"misses":361766}
+[32minfo[39m: [admin-lookup:worker] country worker process exiting, stats: {"calls":361766,"hits":0,"misses":361766}
+[32minfo[39m: [admin-lookup:worker] marinearea worker process exiting, stats: {"calls":361766,"hits":0,"misses":361766}
+[32minfo[39m: [admin-lookup:worker] macroregion worker process exiting, stats: {"calls":361766,"hits":0,"misses":361766}
+[32minfo[39m: [admin-lookup:worker] region worker process exiting, stats: {"calls":361766,"hits":0,"misses":361766}
+[32minfo[39m: [admin-lookup:worker] continent worker process exiting, stats: {"calls":361766,"hits":0,"misses":361766}
+[32minfo[39m: [admin-lookup:worker] localadmin worker process exiting, stats: {"calls":361766,"hits":0,"misses":361766}
+[32minfo[39m: [admin-lookup:worker] neighbourhood worker process exiting, stats: {"calls":361766,"hits":0,"misses":361766}
+[32minfo[39m: [admin-lookup:worker] dependency worker process exiting, stats: {"calls":361766,"hits":0,"misses":361766}
+[32minfo[39m: [admin-lookup:worker] borough worker process exiting, stats: {"calls":361766,"hits":0,"misses":361766}
+[32minfo[39m: [admin-lookup:worker] ocean worker process exiting, stats: {"calls":361766,"hits":0,"misses":361766}
+[32minfo[39m: [admin-lookup:worker] locality worker process exiting, stats: {"calls":361766,"hits":0,"misses":361766}
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=0, current_length=0, indexed=361766, batch_ok=724, batch_retries=0, failed_records=0, venue=148650, address=213116, persec=876.6
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=0, current_length=0, indexed=361766, batch_ok=724, batch_retries=0, failed_records=0, venue=148650, address=213116, persec=876.6
+Creating pelias_polylines_run ... 
+Creating pelias_polylines_run ... done
+[32minfo[39m: [wof-pip-service:master] starting with layers neighbourhood,borough,locality,localadmin,county,macrocounty,macroregion,region,dependency,country,empire,continent,marinearea,ocean
+[32minfo[39m: [wof-pip-service:master] localadmin worker loaded 0 features in 0.046 seconds
+[32minfo[39m: [wof-pip-service:master] borough worker loaded 0 features in 0.028 seconds
+[32minfo[39m: [wof-pip-service:master] locality worker loaded 0 features in 0.014 seconds
+[32minfo[39m: [wof-pip-service:master] neighbourhood worker loaded 0 features in 0.049 seconds
+[32minfo[39m: [wof-pip-service:master] marinearea worker loaded 0 features in 0.012 seconds
+[32minfo[39m: [wof-pip-service:master] dependency worker loaded 0 features in 0.013 seconds
+[32minfo[39m: [wof-pip-service:master] macrocounty worker loaded 0 features in 0.028 seconds
+[32minfo[39m: [wof-pip-service:master] region worker loaded 0 features in 0.03 seconds
+[32minfo[39m: [wof-pip-service:master] continent worker loaded 0 features in 0.011 seconds
+[32minfo[39m: [wof-pip-service:master] empire worker loaded 0 features in 0.011 seconds
+[32minfo[39m: [wof-pip-service:master] county worker loaded 0 features in 0.022 seconds
+[32minfo[39m: [wof-pip-service:master] ocean worker loaded 0 features in 0.011 seconds
+[32minfo[39m: [wof-pip-service:master] macroregion worker loaded 0 features in 0.012 seconds
+[32minfo[39m: [wof-pip-service:master] country worker loaded 0 features in 0.012 seconds
+[32minfo[39m: [wof-pip-service:master] PIP Service Loading Completed!!!
+[32minfo[39m: [dbclient-polylines]  paused=false, transient=1, current_length=153
+[32minfo[39m: [dbclient-polylines]  paused=false, transient=1, current_length=153
+[32minfo[39m: [dbclient-polylines]  paused=false, transient=0, current_length=339, indexed=36500, batch_ok=73, batch_retries=0, failed_records=0, street=36500, persec=3650
+[32minfo[39m: [dbclient-polylines]  paused=false, transient=1, current_length=106, indexed=71000, batch_ok=142, batch_retries=0, failed_records=0, street=71000, persec=3450
+[32minfo[39m: [wof-admin-lookup] Shutting down admin lookup service
+[32minfo[39m: [admin-lookup:worker] borough worker process exiting, stats: {"calls":94777,"hits":0,"misses":94777}
+[32minfo[39m: [admin-lookup:worker] ocean worker process exiting, stats: {"calls":94777,"hits":0,"misses":94777}
+[32minfo[39m: [admin-lookup:worker] macrocounty worker process exiting, stats: {"calls":94777,"hits":0,"misses":94777}
+[32minfo[39m: [admin-lookup:worker] macroregion worker process exiting, stats: {"calls":94777,"hits":0,"misses":94777}
+[32minfo[39m: [admin-lookup:worker] continent worker process exiting, stats: {"calls":94777,"hits":0,"misses":94777}
+[32minfo[39m: [admin-lookup:worker] region worker process exiting, stats: {"calls":94777,"hits":0,"misses":94777}
+[32minfo[39m: [admin-lookup:worker] marinearea worker process exiting, stats: {"calls":94777,"hits":0,"misses":94777}
+[32minfo[39m: [admin-lookup:worker] localadmin worker process exiting, stats: {"calls":94777,"hits":0,"misses":94777}
+[32minfo[39m: [admin-lookup:worker] dependency worker process exiting, stats: {"calls":94777,"hits":0,"misses":94777}
+[32minfo[39m: [admin-lookup:worker] empire worker process exiting, stats: {"calls":94777,"hits":0,"misses":94777}
+[32minfo[39m: [admin-lookup:worker] locality worker process exiting, stats: {"calls":94777,"hits":0,"misses":94777}
+[32minfo[39m: [admin-lookup:worker] country worker process exiting, stats: {"calls":94777,"hits":0,"misses":94777}
+[32minfo[39m: [admin-lookup:worker] neighbourhood worker process exiting, stats: {"calls":94777,"hits":0,"misses":94777}
+[32minfo[39m: [admin-lookup:worker] county worker process exiting, stats: {"calls":94777,"hits":0,"misses":94777}
+[32minfo[39m: [dbclient-polylines]  paused=false, transient=0, current_length=0, indexed=94777, batch_ok=190, batch_retries=0, failed_records=0, street=94777, persec=2377.7
+[32minfo[39m: [dbclient-polylines]  paused=false, transient=0, current_length=0, indexed=94777, batch_ok=190, batch_retries=0, failed_records=0, street=94777, persec=2377.7
+Creating pelias_transit_run ... 
+Creating pelias_transit_run ... done
+[33mwarn[39m: [transit] 'pelias.json' config lacks a transit object entry. Transit importer quitting after taking no action
+Creating pelias_csv-importer_run ... 
+Creating pelias_csv-importer_run ... done
+[32minfo[39m: [csv-importer] No datapath configured, nothing to do
+Creating pelias_whosonfirst_run ... 
+Creating pelias_csv-importer_run ... 
+Creating pelias_whosonfirst_run ... done
+Creating pelias_interpolation_run ... 
+Creating pelias_csv-importer_run ... done
+Creating pelias_interpolation_run ... done
+Creating pelias_transit_run ... 
+Creating pelias_openaddresses_run ... 
+Creating pelias_openaddresses_run ... done
+Creating pelias_transit_run ... done
+Creating pelias_openstreetmap_run ... 
+Creating pelias_openstreetmap_run ... done
+[33mwarn[39m: [csv-download] No files to download, quitting
+[32minfo[39m: [openaddresses-download] Attempting to download selected data files: sa/countrywide.csv
+[32minfo[39m: [openaddresses-download] Downloading sa/countrywide.csv
+[32minfo[39m: [whosonfirst] Downloading whosonfirst-data-admin-kw-latest.db.bz2
+[32minfo[39m: [openstreetmap-download] Downloading sources: https://download.geofabrik.de/asia/gcc-states-latest.osm.pbf
+[32minfo[39m: [whosonfirst] Downloading whosonfirst-data-postalcode-kw-latest.db.bz2
+[32minfo[39m: [whosonfirst] done downloading whosonfirst-data-postalcode-kw-latest.db.bz2
+[32minfo[39m: [whosonfirst] done downloading whosonfirst-data-admin-kw-latest.db.bz2
+[32minfo[39m: [whosonfirst] All done!
+[33mwarn[39m: [transit] 'pelias.json' config lacks a transit object entry. Transit importer quitting after taking no action
+[32minfo[39m: [interpolation(TIGER)] downloaded tl_2021_53011_addrfeat.zip
+[32minfo[39m: [interpolation(TIGER)] downloads complete
+[32minfo[39m: [openstreetmap-download] All done!
+[32minfo[39m: [openaddresses-download] All done!
+Creating pelias_placeholder_run ... 
+Creating pelias_polylines_run ... 
+Creating pelias_placeholder_run ... done
+Creating pelias_polylines_run ... done
+converting /data/openstreetmap/gcc-states-latest.osm.pbf to /data/polylines/extract.0sv
+Creating extract at /data/placeholder/wof.extract
+Creating pelias_placeholder_run ... 
+Creating pelias_placeholder_run ... done
+import...
+populate fts...
+optimize...
+close...
+Done!
+wrote polylines extract
+-rw-r--r--. 1 1001 1001 8.3M Dec 26 20:26 /data/polylines/extract.0sv
+Creating pelias_interpolation_run ... 
+Creating pelias_interpolation_run ... done
+- importing polylines
+- archiving street database
+- conflating openaddresses
+Mon Dec 26 20:26:16 UTC 2022 /data/openaddresses/sa/countrywide.csv
+- conflating openstreetmap
+- conflating tiger
+Mon Dec 26 20:39:38 UTC 2022 /data/tiger/downloads/tl_2021_53011_addrfeat.zip
+- interpolating vertices
+real 7.49
+user 7.50
+sys 0.48
+- archiving address database
+- generating meta file
+
+Build completed!
+
+Creating pelias_whosonfirst_run ... 
+Creating pelias_whosonfirst_run ... done
+Creating pelias_transit_run ... 
+Creating pelias_interpolation_run ... 
+Creating pelias_openstreetmap_run ... 
+Creating pelias_openstreetmap_run ... done
+Creating pelias_interpolation_run ... done
+Creating pelias_transit_run ... done
+Creating pelias_openaddresses_run ... 
+Creating pelias_csv-importer_run ... 
+Creating pelias_openaddresses_run ... done
+Creating pelias_csv-importer_run ... done
+internal/modules/cjs/loader.js:1044
+    throw err;
+    ^
+
+SyntaxError: /code/pelias.json: Unexpected token ] in JSON at position 1299
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1041:22)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at getConfig (/code/pelias/interpolation/node_modules/pelias-logger/node_modules/pelias-config/index.js:66:21)
+    at Object.generate (/code/pelias/interpolation/node_modules/pelias-logger/node_modules/pelias-config/index.js:24:18)
+    at Object.<anonymous> (/code/pelias/interpolation/node_modules/pelias-logger/index.js:10:30)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+internal/modules/cjs/loader.js:1044
+    throw err;
+    ^
+
+SyntaxError: /code/pelias.json: Unexpected token ] in JSON at position 1299
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1041:22)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at getConfig (/code/pelias/whosonfirst/node_modules/pelias-logger/node_modules/pelias-config/index.js:66:21)
+    at Object.generate (/code/pelias/whosonfirst/node_modules/pelias-logger/node_modules/pelias-config/index.js:24:18)
+    at Object.<anonymous> (/code/pelias/whosonfirst/node_modules/pelias-logger/index.js:10:30)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+internal/modules/cjs/loader.js:1044
+    throw err;
+    ^
+
+SyntaxError: /code/pelias.json: Unexpected token ] in JSON at position 1299
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1041:22)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at getConfig (/code/pelias/csv-importer/node_modules/pelias-logger/node_modules/pelias-config/index.js:66:21)
+    at Object.generate (/code/pelias/csv-importer/node_modules/pelias-logger/node_modules/pelias-config/index.js:24:18)
+    at Object.<anonymous> (/code/pelias/csv-importer/node_modules/pelias-logger/index.js:10:30)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+internal/modules/cjs/loader.js:1044
+    throw err;
+    ^
+
+SyntaxError: /code/pelias.json: Unexpected token ] in JSON at position 1299
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1041:22)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at getConfig (/code/pelias/transit/node_modules/pelias-config/index.js:66:21)
+    at Object.generate (/code/pelias/transit/node_modules/pelias-config/index.js:24:18)
+    at Object.<anonymous> (/code/pelias/transit/node_modules/pelias-model/Document.js:1:41)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+internal/modules/cjs/loader.js:1044
+    throw err;
+    ^
+
+SyntaxError: /code/pelias.json: Unexpected token ] in JSON at position 1299
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1041:22)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at getConfig (/code/pelias/openstreetmap/node_modules/pelias-config/index.js:66:21)
+    at Object.generate (/code/pelias/openstreetmap/node_modules/pelias-config/index.js:24:18)
+    at Object.<anonymous> (/code/pelias/openstreetmap/util/download_data.js:7:43)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+1
+1
+1
+internal/modules/cjs/loader.js:1044
+    throw err;
+    ^
+
+SyntaxError: /code/pelias.json: Unexpected token ] in JSON at position 1299
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1041:22)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at getConfig (/code/pelias/openaddresses/node_modules/pelias-config/index.js:66:21)
+    at Object.generate (/code/pelias/openaddresses/node_modules/pelias-config/index.js:24:18)
+    at Object.<anonymous> (/code/pelias/openaddresses/utils/download_data.js:2:43)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+1
+1
+1
+Creating pelias_placeholder_run ... 
+Creating pelias_polylines_run ... 
+Creating pelias_placeholder_run ... done
+Creating pelias_polylines_run ... done
+Creating extract at /data/placeholder/wof.extract
+converting /data/openstreetmap/gcc-states-latest.osm.pbf to /data/polylines/extract.0sv
+internal/modules/cjs/loader.js:1044
+    throw err;
+    ^
+
+SyntaxError: /code/pelias.json: Unexpected token ] in JSON at position 1299
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1041:22)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at getConfig (/code/pelias/placeholder/node_modules/pelias-logger/node_modules/pelias-config/index.js:66:21)
+    at Object.generate (/code/pelias/placeholder/node_modules/pelias-logger/node_modules/pelias-config/index.js:24:18)
+    at Object.<anonymous> (/code/pelias/placeholder/node_modules/pelias-logger/index.js:10:30)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+1
+wrote polylines extract
+-rw-r--r--. 1 1001 1001 8.3M Dec 26 20:44 /data/polylines/extract.0sv
+Creating pelias_interpolation_run ... 
+Creating pelias_interpolation_run ... done
+- importing polylines
+- archiving street database
+- conflating openaddresses
+Mon Dec 26 20:44:21 UTC 2022 /data/openaddresses/sa/countrywide.csv
+137
+Creating pelias_polylines_run ... 
+Creating pelias_placeholder_run ... 
+Creating pelias_placeholder_run ... done
+Creating pelias_polylines_run ... done
+Creating extract at /data/placeholder/wof.extract
+converting /data/openstreetmap/gcc-states-latest.osm.pbf to /data/polylines/extract.0sv
+Creating pelias_placeholder_run ... 
+Creating pelias_placeholder_run ... done
+import...
+populate fts...
+optimize...
+close...
+Done!
+wrote polylines extract
+-rw-r--r--. 1 1001 1001 8.3M Dec 26 20:53 /data/polylines/extract.0sv
+Creating pelias_interpolation_run ... 
+Creating pelias_interpolation_run ... done
+- importing polylines
+- archiving street database
+- conflating openaddresses
+Mon Dec 26 20:53:45 UTC 2022 /data/openaddresses/sa/countrywide.csv
+Mon Dec 26 21:05:56 UTC 2022 /data/openaddresses/kw/countrywide-arabic.csv
+Mon Dec 26 21:07:17 UTC 2022 /data/openaddresses/kw/countrywide-latin.csv
+- conflating openstreetmap
+- conflating tiger
+Mon Dec 26 21:08:56 UTC 2022 /data/tiger/downloads/tl_2021_53011_addrfeat.zip
+- interpolating vertices
+real 7.76
+user 7.64
+sys 0.60
+- archiving address database
+- generating meta file
+
+Build completed!
+
+Creating pelias_whosonfirst_run ... 
+Creating pelias_whosonfirst_run ... done
+[32minfo[39m: [whosonfirst] import finished
+[32minfo[39m: [dbclient-whosonfirst]  paused=false, transient=1, current_length=0
+[32minfo[39m: [dbclient-whosonfirst]  paused=false, transient=1, current_length=0
+[32minfo[39m: [dbclient-whosonfirst]  paused=false, transient=0, current_length=0, indexed=210, batch_ok=1, batch_retries=0, failed_records=0, country=1, region=6, county=6, locality=134, neighbourhood=63, persec=21
+[32minfo[39m: [dbclient-whosonfirst]  paused=false, transient=0, current_length=0, indexed=210, batch_ok=1, batch_retries=0, failed_records=0, country=1, region=6, county=6, locality=134, neighbourhood=63, persec=21
+Creating pelias_openaddresses_run ... 
+Creating pelias_openaddresses_run ... done
+[32minfo[39m: [wof-pip-service:master] starting with layers neighbourhood,borough,locality,localadmin,county,macrocounty,macroregion,region,dependency,country,empire,continent
+[32minfo[39m: [openaddresses] Importing 2 files.
+[32minfo[39m: [openaddresses] Creating read stream for: /data/openaddresses/kw/countrywide-arabic.csv
+[32minfo[39m: [wof-pip-service:master] borough worker loaded 0 features in 0.041 seconds
+[32minfo[39m: [wof-pip-service:master] localadmin worker loaded 0 features in 0.051 seconds
+[32minfo[39m: [wof-pip-service:master] neighbourhood worker loaded 46 features in 0.103 seconds
+[32minfo[39m: [wof-pip-service:master] locality worker loaded 63 features in 0.156 seconds
+[32minfo[39m: [wof-pip-service:master] macrocounty worker loaded 0 features in 0.015 seconds
+[32minfo[39m: [wof-pip-service:master] macroregion worker loaded 0 features in 0.028 seconds
+[32minfo[39m: [wof-pip-service:master] dependency worker loaded 0 features in 0.049 seconds
+[32minfo[39m: [wof-pip-service:master] county worker loaded 6 features in 0.055 seconds
+[32minfo[39m: [wof-pip-service:master] region worker loaded 6 features in 0.028 seconds
+[32minfo[39m: [wof-pip-service:master] empire worker loaded 0 features in 0.013 seconds
+[32minfo[39m: [wof-pip-service:master] country worker loaded 1 features in 0.03 seconds
+[32minfo[39m: [wof-pip-service:master] continent worker loaded 0 features in 0.012 seconds
+[32minfo[39m: [wof-pip-service:master] PIP Service Loading Completed!!!
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=2, current_length=147
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=2, current_length=147
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=2, current_length=337, indexed=46500, batch_ok=93, batch_retries=0, failed_records=0, address=46500, persec=4650
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=3, current_length=489, indexed=95500, batch_ok=191, batch_retries=0, failed_records=0, address=95500, persec=4900
+[32minfo[39m: [dbclient-openaddresses]  paused=true, transient=5, current_length=0, indexed=142500, batch_ok=285, batch_retries=0, failed_records=0, address=142500, persec=4700
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=2, current_length=23, indexed=192000, batch_ok=384, batch_retries=0, failed_records=0, address=192000, persec=4950
+[32minfo[39m: [openaddresses] Creating read stream for: /data/openaddresses/kw/countrywide-latin.csv
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=3, current_length=324, indexed=236500, batch_ok=473, batch_retries=0, failed_records=0, address=236500, persec=4450
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=3, current_length=298, indexed=284000, batch_ok=568, batch_retries=0, failed_records=0, address=284000, persec=4750
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=1, current_length=343, indexed=330500, batch_ok=661, batch_retries=0, failed_records=0, address=330500, persec=4650
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=4, current_length=90, indexed=372500, batch_ok=745, batch_retries=0, failed_records=0, address=372500, persec=4200
+[32minfo[39m: [wof-admin-lookup] Shutting down admin lookup service
+[32minfo[39m: [admin-lookup:worker] county worker process exiting, stats: {"calls":10308,"hits":10258,"misses":50}
+[32minfo[39m: [admin-lookup:worker] dependency worker process exiting, stats: {"calls":50,"hits":0,"misses":50}
+[32minfo[39m: [admin-lookup:worker] localadmin worker process exiting, stats: {"calls":10308,"hits":0,"misses":10308}
+[32minfo[39m: [admin-lookup:worker] locality worker process exiting, stats: {"calls":387033,"hits":376725,"misses":10308}
+[32minfo[39m: [admin-lookup:worker] macroregion worker process exiting, stats: {"calls":50,"hits":0,"misses":50}
+[32minfo[39m: [admin-lookup:worker] neighbourhood worker process exiting, stats: {"calls":387033,"hits":107550,"misses":279483}
+[32minfo[39m: [admin-lookup:worker] continent worker process exiting, stats: {"calls":50,"hits":0,"misses":50}
+[32minfo[39m: [admin-lookup:worker] borough worker process exiting, stats: {"calls":387033,"hits":0,"misses":387033}
+[32minfo[39m: [admin-lookup:worker] empire worker process exiting, stats: {"calls":50,"hits":0,"misses":50}
+[32minfo[39m: [admin-lookup:worker] country worker process exiting, stats: {"calls":50,"hits":0,"misses":50}
+[32minfo[39m: [admin-lookup:worker] region worker process exiting, stats: {"calls":50,"hits":0,"misses":50}
+[32minfo[39m: [admin-lookup:worker] macrocounty worker process exiting, stats: {"calls":50,"hits":0,"misses":50}
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=0, indexed=387033, batch_ok=775, batch_retries=0, failed_records=0, address=387033, persec=1453.3
+[32minfo[39m: [dbclient-openaddresses]  paused=false, transient=0, current_length=0, indexed=387033, batch_ok=775, batch_retries=0, failed_records=0, address=387033, persec=1453.3
+[32minfo[39m: [openaddresses] Total time taken: 93.164s
+Creating pelias_openstreetmap_run ... 
+Creating pelias_openstreetmap_run ... done
+[32minfo[39m: [openstreetmap] Creating read stream for: /data/openstreetmap/gcc-states-latest.osm.pbf
+[32minfo[39m: [wof-pip-service:master] starting with layers neighbourhood,borough,locality,localadmin,county,macrocounty,macroregion,region,dependency,country,empire,continent,marinearea,ocean
+[32minfo[39m: [wof-pip-service:master] borough worker loaded 0 features in 0.066 seconds
+[32minfo[39m: [wof-pip-service:master] neighbourhood worker loaded 46 features in 0.125 seconds
+[32minfo[39m: [wof-pip-service:master] localadmin worker loaded 0 features in 0.027 seconds
+[32minfo[39m: [wof-pip-service:master] locality worker loaded 63 features in 0.189 seconds
+[32minfo[39m: [wof-pip-service:master] continent worker loaded 0 features in 0.046 seconds
+[32minfo[39m: [wof-pip-service:master] empire worker loaded 0 features in 0.038 seconds
+[32minfo[39m: [wof-pip-service:master] dependency worker loaded 0 features in 0.038 seconds
+[32minfo[39m: [wof-pip-service:master] county worker loaded 6 features in 0.095 seconds
+[32minfo[39m: [wof-pip-service:master] country worker loaded 1 features in 0.029 seconds
+[32minfo[39m: [wof-pip-service:master] region worker loaded 6 features in 0.065 seconds
+[32minfo[39m: [wof-pip-service:master] marinearea worker loaded 0 features in 0.024 seconds
+[32minfo[39m: [wof-pip-service:master] macrocounty worker loaded 0 features in 0.028 seconds
+[32minfo[39m: [wof-pip-service:master] macroregion worker loaded 0 features in 0.013 seconds
+[32minfo[39m: [wof-pip-service:master] ocean worker loaded 0 features in 0.013 seconds
+[32minfo[39m: [wof-pip-service:master] PIP Service Loading Completed!!!
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=1, current_length=125
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=1, current_length=125
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=1, current_length=9, indexed=28500, batch_ok=57, batch_retries=0, failed_records=0, venue=25727, address=2773, persec=2850
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=1, current_length=220, indexed=68500, batch_ok=137, batch_retries=0, failed_records=0, venue=62130, address=6370, persec=4000
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=0, current_length=331, indexed=104000, batch_ok=208, batch_retries=0, failed_records=0, venue=81068, address=22932, persec=3550
+[31merror[39m: [openstreetmap] tag_mapper error
+[31merror[39m: [openstreetmap] PeliasModelError: invalid regex test, ‎الحديث ‎‏H5V2+68، السلامة، As-Samer 23437 ‎‏‪054 440 0061‬‏ ‎‏https://maps.app.goo.gl/XixmxUKxhZZXnoXT6 should not match /https?:\/\//
+    at Object.nomatch (/code/pelias/openstreetmap/node_modules/pelias-model/util/valid.js:117:13)
+    at Document.setAddress (/code/pelias/openstreetmap/node_modules/pelias-model/Document.js:411:18)
+    at /code/pelias/openstreetmap/stream/tag_mapper.js:65:17
+    at /code/pelias/openstreetmap/node_modules/lodash/lodash.js:4967:15
+    at baseForOwn (/code/pelias/openstreetmap/node_modules/lodash/lodash.js:3032:24)
+    at /code/pelias/openstreetmap/node_modules/lodash/lodash.js:4936:18
+    at Function.forEach (/code/pelias/openstreetmap/node_modules/lodash/lodash.js:9410:14)
+    at DestroyableTransform._transform (/code/pelias/openstreetmap/stream/tag_mapper.js:34:9)
+    at DestroyableTransform.Transform._read (/code/pelias/openstreetmap/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DestroyableTransform.Readable.read (/code/pelias/openstreetmap/node_modules/readable-stream/lib/_stream_readable.js:456:10)
+[31merror[39m: [openstreetmap] {
+  "name": {},
+  "parent": {},
+  "address_parts": {},
+  "center_point": {
+    "lon": 39.213822,
+    "lat": 21.681448
+  },
+  "category": [],
+  "addendum": {},
+  "source": "openstreetmap",
+  "layer": "venue",
+  "source_id": "node/8420408519"
+}
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=0, current_length=446, indexed=131000, batch_ok=262, batch_retries=0, failed_records=0, venue=92376, address=38624, persec=2700
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=2, current_length=5, indexed=164000, batch_ok=328, batch_retries=0, failed_records=0, venue=108655, address=55345, persec=3300
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=2, current_length=165, indexed=199000, batch_ok=398, batch_retries=0, failed_records=0, venue=110818, address=88182, persec=3500
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=2, current_length=7, indexed=231500, batch_ok=463, batch_retries=0, failed_records=0, venue=111053, address=120447, persec=3250
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=4, current_length=379, indexed=266000, batch_ok=532, batch_retries=0, failed_records=0, venue=111150, address=154850, persec=3450
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=3, current_length=251, indexed=304000, batch_ok=608, batch_retries=0, failed_records=0, venue=111178, address=192822, persec=3800
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=0, current_length=211, indexed=337000, batch_ok=674, batch_retries=0, failed_records=0, venue=125296, address=211704, persec=3300
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=0, current_length=36, indexed=361000, batch_ok=722, batch_retries=0, failed_records=0, venue=147908, address=213092, persec=2400
+[32minfo[39m: [wof-admin-lookup] Shutting down admin lookup service
+[32minfo[39m: [admin-lookup:worker] borough worker process exiting, stats: {"calls":361766,"hits":0,"misses":361766}
+[32minfo[39m: [admin-lookup:worker] neighbourhood worker process exiting, stats: {"calls":361766,"hits":46011,"misses":315755}
+[32minfo[39m: [admin-lookup:worker] empire worker process exiting, stats: {"calls":207739,"hits":0,"misses":207739}
+[32minfo[39m: [admin-lookup:worker] macroregion worker process exiting, stats: {"calls":207739,"hits":0,"misses":207739}
+[32minfo[39m: [admin-lookup:worker] continent worker process exiting, stats: {"calls":207739,"hits":0,"misses":207739}
+[32minfo[39m: [admin-lookup:worker] locality worker process exiting, stats: {"calls":361766,"hits":153286,"misses":208480}
+[32minfo[39m: [admin-lookup:worker] macrocounty worker process exiting, stats: {"calls":207739,"hits":0,"misses":207739}
+[32minfo[39m: [admin-lookup:worker] marinearea worker process exiting, stats: {"calls":207739,"hits":0,"misses":207739}
+[32minfo[39m: [admin-lookup:worker] country worker process exiting, stats: {"calls":207739,"hits":0,"misses":207739}
+[32minfo[39m: [admin-lookup:worker] county worker process exiting, stats: {"calls":208480,"hits":741,"misses":207739}
+[32minfo[39m: [admin-lookup:worker] localadmin worker process exiting, stats: {"calls":208480,"hits":0,"misses":208480}
+[32minfo[39m: [admin-lookup:worker] region worker process exiting, stats: {"calls":207739,"hits":0,"misses":207739}
+[32minfo[39m: [admin-lookup:worker] ocean worker process exiting, stats: {"calls":207739,"hits":0,"misses":207739}
+[32minfo[39m: [admin-lookup:worker] dependency worker process exiting, stats: {"calls":207739,"hits":0,"misses":207739}
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=0, current_length=0, indexed=361766, batch_ok=724, batch_retries=0, failed_records=0, venue=148650, address=213116, persec=76.6
+[32minfo[39m: [dbclient-openstreetmap]  paused=false, transient=0, current_length=0, indexed=361766, batch_ok=724, batch_retries=0, failed_records=0, venue=148650, address=213116, persec=76.6
+Creating pelias_polylines_run ... 
+Creating pelias_polylines_run ... done
+[32minfo[39m: [wof-pip-service:master] starting with layers neighbourhood,borough,locality,localadmin,county,macrocounty,macroregion,region,dependency,country,empire,continent,marinearea,ocean
+[32minfo[39m: [wof-pip-service:master] neighbourhood worker loaded 46 features in 0.098 seconds
+[32minfo[39m: [wof-pip-service:master] county worker loaded 6 features in 0.085 seconds
+[32minfo[39m: [wof-pip-service:master] localadmin worker loaded 0 features in 0.041 seconds
+[32minfo[39m: [wof-pip-service:master] locality worker loaded 63 features in 0.167 seconds
+[32minfo[39m: [wof-pip-service:master] macrocounty worker loaded 0 features in 0.03 seconds
+[32minfo[39m: [wof-pip-service:master] borough worker loaded 0 features in 0.053 seconds
+[32minfo[39m: [wof-pip-service:master] dependency worker loaded 0 features in 0.026 seconds
+[32minfo[39m: [wof-pip-service:master] macroregion worker loaded 0 features in 0.018 seconds
+[32minfo[39m: [wof-pip-service:master] country worker loaded 1 features in 0.027 seconds
+[32minfo[39m: [wof-pip-service:master] ocean worker loaded 0 features in 0.012 seconds
+[32minfo[39m: [wof-pip-service:master] continent worker loaded 0 features in 0.015 seconds
+[32minfo[39m: [wof-pip-service:master] region worker loaded 6 features in 0.041 seconds
+[32minfo[39m: [wof-pip-service:master] empire worker loaded 0 features in 0.012 seconds
+[32minfo[39m: [wof-pip-service:master] marinearea worker loaded 0 features in 0.012 seconds
+[32minfo[39m: [wof-pip-service:master] PIP Service Loading Completed!!!
+[32minfo[39m: [dbclient-polylines]  paused=false, transient=1, current_length=128
+[32minfo[39m: [dbclient-polylines]  paused=false, transient=1, current_length=128
+[32minfo[39m: [dbclient-polylines]  paused=false, transient=1, current_length=161, indexed=33500, batch_ok=67, batch_retries=0, failed_records=0, street=33500, persec=3350
+[32minfo[39m: [dbclient-polylines]  paused=false, transient=1, current_length=205, indexed=70000, batch_ok=140, batch_retries=0, failed_records=0, street=70000, persec=3650
+[32minfo[39m: [wof-admin-lookup] Shutting down admin lookup service
+[32minfo[39m: [admin-lookup:worker] localadmin worker process exiting, stats: {"calls":82871,"hits":0,"misses":82871}
+[32minfo[39m: [admin-lookup:worker] borough worker process exiting, stats: {"calls":94777,"hits":0,"misses":94777}
+[32minfo[39m: [admin-lookup:worker] marinearea worker process exiting, stats: {"calls":82117,"hits":0,"misses":82117}
+[32minfo[39m: [admin-lookup:worker] county worker process exiting, stats: {"calls":82871,"hits":754,"misses":82117}
+[32minfo[39m: [admin-lookup:worker] ocean worker process exiting, stats: {"calls":82117,"hits":0,"misses":82117}
+[32minfo[39m: [admin-lookup:worker] dependency worker process exiting, stats: {"calls":82117,"hits":0,"misses":82117}
+[32minfo[39m: [admin-lookup:worker] continent worker process exiting, stats: {"calls":82117,"hits":0,"misses":82117}
+[32minfo[39m: [admin-lookup:worker] region worker process exiting, stats: {"calls":82117,"hits":0,"misses":82117}
+[32minfo[39m: [admin-lookup:worker] country worker process exiting, stats: {"calls":82117,"hits":0,"misses":82117}
+[32minfo[39m: [admin-lookup:worker] empire worker process exiting, stats: {"calls":82117,"hits":0,"misses":82117}
+[32minfo[39m: [admin-lookup:worker] macrocounty worker process exiting, stats: {"calls":82117,"hits":0,"misses":82117}
+[32minfo[39m: [admin-lookup:worker] locality worker process exiting, stats: {"calls":94777,"hits":11906,"misses":82871}
+[32minfo[39m: [admin-lookup:worker] macroregion worker process exiting, stats: {"calls":82117,"hits":0,"misses":82117}
+[32minfo[39m: [admin-lookup:worker] neighbourhood worker process exiting, stats: {"calls":94777,"hits":3364,"misses":91413}
+[32minfo[39m: [dbclient-polylines]  paused=false, transient=0, current_length=0, indexed=94777, batch_ok=190, batch_retries=0, failed_records=0, street=94777, persec=2477.7
+[32minfo[39m: [dbclient-polylines]  paused=false, transient=0, current_length=0, indexed=94777, batch_ok=190, batch_retries=0, failed_records=0, street=94777, persec=2477.7
+Creating pelias_transit_run ... 
+Creating pelias_transit_run ... done
+[33mwarn[39m: [transit] 'pelias.json' config lacks a transit object entry. Transit importer quitting after taking no action
+Creating pelias_csv-importer_run ... 
+Creating pelias_csv-importer_run ... done
+[32minfo[39m: [csv-importer] No datapath configured, nothing to do
